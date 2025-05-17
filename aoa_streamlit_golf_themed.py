@@ -15,8 +15,6 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-
-
 import pandas as pd
 from skops.io import load
 
