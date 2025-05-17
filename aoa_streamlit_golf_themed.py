@@ -7,7 +7,10 @@ st.set_page_config(
 )
 st.markdown("""
     <link rel="apple-touch-icon" sizes="180x180" href="https://raw.githubusercontent.com/dingess97/AoACalc/main/apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
 """, unsafe_allow_html=True)
+
 
 
 import pandas as pd
