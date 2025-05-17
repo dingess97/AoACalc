@@ -6,8 +6,9 @@ st.set_page_config(
     layout="centered"
 )
 st.markdown("""
-    <link rel="apple-touch-icon" sizes="180x180" href="https://github.com/dingess97/AoACalc/blob/main/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://raw.githubusercontent.com/dingess97/AoACalc/main/apple-touch-icon.png">
 """, unsafe_allow_html=True)
+
 
 import pandas as pd
 from skops.io import load
