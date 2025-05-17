@@ -5,6 +5,10 @@ st.set_page_config(
     page_icon="favicon.ico",  # This must be relative to your Python script
     layout="centered"
 )
+st.markdown("""
+    <link rel="apple-touch-icon" sizes="180x180" href="https://raw.githubusercontent.com/dingess97/AoACalc/main/apple-touch-icon.png">
+""", unsafe_allow_html=True)
+
 import pandas as pd
 from skops.io import load
 
