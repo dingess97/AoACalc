@@ -8,8 +8,8 @@ st.set_page_config(
 )
 
 st.markdown("""
-    <link rel="apple-touch-icon" sizes="180x180" href="static/apple_touch_icon.png">
-    <link rel="apple-touch-icon-precomposed" href="static/apple_touch_icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="static/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" href="static/apple-touch-icon.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
 """, unsafe_allow_html=True)
