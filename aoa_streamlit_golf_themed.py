@@ -4,6 +4,7 @@ st.set_page_config(
     page_title="AoA Calculator",
     page_icon="favicon.ico",  # This must be relative to your Python script
     layout="centered"
+)
 import pandas as pd
 from skops.io import load
 
