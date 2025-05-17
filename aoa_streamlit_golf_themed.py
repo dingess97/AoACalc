@@ -6,6 +6,8 @@ st.set_page_config(
     page_icon="favicon.ico",
     layout="centered"
 )
+with st.container():
+    st.image("static/apple-touch-icon.png", width=1)
 
 st.markdown("""
     <link rel="apple-touch-icon" sizes="180x180" href="static/apple-touch-icon.png">
